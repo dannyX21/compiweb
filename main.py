@@ -1,5 +1,5 @@
-from lexico import Lexico
-from simbolo import CONST_TOKENS
+from compi.lexico import Lexico
+from compi.simbolo import CONST_TOKENS
 
 codigo = ""
 with open('codigo.txt','r') as f:
